@@ -1,0 +1,15 @@
+body * {
+  border: 1px red solid;
+  margin: 4px ;
+  padding: 4px;
+}
+
+
+main {
+  text-align: center;
+}
+
+main header img {
+  width: 120px;
+  border-radius: 50%;
+}
