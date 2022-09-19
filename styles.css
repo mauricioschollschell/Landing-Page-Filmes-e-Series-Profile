@@ -1,15 +1,82 @@
 body * {
-  border: 1px red solid;
-  margin: 4px ;
-  padding: 4px;
+  box-sizing: border-box;
 }
 
+body {
+  background-image: url('./assets/bg.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: #121214;
+}
 
 main {
-  text-align: center;
+  max-width: 700px;
+  width: 70%;
+  margin-top: 32px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
-main header img {
+main section {
+  margin: 24px 32px 32px;
+  background-image: linear-gradient(90deg, #c91842 0%, #5cc2e2 100%);
+  padding-top: 5px;
+  border-radius: 10px;
+}
+
+section h2 {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 38.4px;
+  font-weight: 900;
+}
+
+section p {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  color: #c1c1c1;
+  line-height: 25.6px;
+  font-weight: 400;
+
+  margin-bottom: 24px;
+}
+
+main section div img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+main section div {
+  padding: 24px 32px 32px;
+}
+
+header {
+  margin: 32px auto 8px;
+  height: 128px;
+}
+
+header div {
+  /*   background-image: linear-gradient(90deg, #c91842 100%, #5cc2e2, 100%);
+  padding: 5px; */
+}
+header img {
   width: 120px;
   border-radius: 50%;
+}
+
+.cards {
+  background-color: #262629;
+  border-radius: 8px;
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
